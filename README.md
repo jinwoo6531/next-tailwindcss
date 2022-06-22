@@ -1,4 +1,4 @@
-로그인하지 않은 상태면 리다이렉트의 경우(useUser 생성)
+-로그인하지 않은 상태면 리다이렉트의 경우(useUser 생성)
 
 1.
 export default function useUser() {
@@ -22,3 +22,7 @@ return user;
 
 2. index.tsx
 const user = useUser();
+
+
+
+- 좋아요 기능(Optimistic UI Update)
